@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# 💼 Personal Portfolio Website
 
-## Project info
+A modern, fully-featured portfolio and business website built with the latest React ecosystem. This project showcases my skills, projects, testimonials, and contact details — all with a focus on responsiveness, accessibility, performance, and a great user experience.
 
-**URL**: https://lovable.dev/projects/3dd87ed6-a753-4e68-8bd0-c9631c7b36ea
+---
 
-## How can I edit this code?
+## 🛠️ Technologies Used
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/3dd87ed6-a753-4e68-8bd0-c9631c7b36ea) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
+### Core
+- React 18.3.1
 - TypeScript
-- React
-- shadcn-ui
+- Vite
+- Node.js
+
+### Styling
 - Tailwind CSS
+- Tailwind CSS Animate
+- Radix UI
+- Shadcn/UI
+- Class Variance Authority (CVA)
+- clsx & tailwind-merge
+- CSS Variables
+- Next Themes (dark/light mode)
 
-## How can I deploy this project?
+### Routing
+- React Router DOM 6.26.2
+- Browser Router
 
-Simply open [Lovable](https://lovable.dev/projects/3dd87ed6-a753-4e68-8bd0-c9631c7b36ea) and click on Share -> Publish.
+### State & Backend
+- React Hooks (useState, useEffect, useRef)
+- TanStack React Query
+- Supabase (Database, Auth, Storage)
+- localStorage
 
-## Can I connect a custom domain to my Lovable project?
+### Forms & Validation
+- React Hook Form
+- Zod
+- @hookform/resolvers
 
-Yes, you can!
+### UI Components
+- Radix UI Primitives (Accordion, Dialog, Tabs, etc.)
+- Embla Carousel React
+- React Day Picker
+- React Resizable Panels
+- Input OTP
+- Vaul (Drawer)
+- CMDK (Command Palette)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Notifications
+- Sonner Toast Notifications
+- Custom Toast System (built with Radix UI)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Charts & Data
+- Recharts
+- date-fns
+
+### Build & Tooling
+- ESLint
+- PostCSS
+- Bun (bun.lockb)
+
+---
+
+## ✨ Features
+
+- Responsive design (mobile-first)
+- Interactive skills section
+- Dynamic portfolio/projects section
+- Testimonials carousel
+- Contact form with validation
+- Admin panel (key-based authentication)
+- Custom toast notifications
+- Session persistence via localStorage
+- Dark and light theming
+- Charts and visual feedback
